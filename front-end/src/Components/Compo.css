@@ -1,6 +1,8 @@
 *{
   margin: 0px;
   padding: 0px;
+  font-size: 17px;
+  font-weight: 700;
 }
 .App {
     text-align: center;
@@ -20,9 +22,9 @@
     padding: auto;
   
   }
-  /* SignuUp___________________ */
-  .boxSign{
-
+  /* SignuUp - Login ___________________ */
+  .boxSign, .boxLogin{
+    margin-top: 60px;
     display: flex;
     flex-direction: column;
     align-items: center;

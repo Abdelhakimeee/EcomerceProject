@@ -16,7 +16,7 @@ app.post('/register',async (req,resp)=>{
     resp.send(result);
 });
 
-app.post('/login',async (req,resp)=>{
+app.post('/login',async (req,resp)=>{    // you have to instoll this info in users in bd like data
     if(req.body.password && req.body.email){
         let user = await User.findOne(req.body).select("-password");
         if(user){
