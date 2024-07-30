@@ -1,8 +1,12 @@
+*{
+  margin: 0px;
+  padding: 0px;
+}
 .App {
     text-align: center;
   }
   .nav-ul {
-    padding: 5px;
+    padding: 0px;
     margin: 0px;
     background-color: skyblue;
   }
@@ -16,15 +20,39 @@
     padding: auto;
   
   }
+  /* SignuUp___________________ */
+  .boxSign{
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .inputBox {
+    padding: 8px ;
+    margin:20px;
+    display: block;
+    border:none;
+    width: 300px;
+    background-color: rgb(146, 202, 224);
+    color: #fff;
+    border-radius: 6px;
+  }
+  .appButton {
+    margin: 20px;
+    width: 150px;
+    padding: 10px;
+    color: rgb(85, 185, 224);
+    border: solid 2px rgb(85, 185, 224);
+    cursor: pointer;
+    font-weight: 800;
+    border-radius: 6px;
+  }
   
   
   
   
   
-  
-  
-  
-  
+
   /* Footer__________________________ */
   .footer{
     background-color: skyblue;
