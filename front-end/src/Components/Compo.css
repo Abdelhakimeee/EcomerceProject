@@ -7,6 +7,15 @@
 .App {
     text-align: center;
   }
+  .logo{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: left;
+    background-color: #fff;
+    margin-top: 6px;
+    margin-left: 50px;
+  }
   .nav-ul {
     padding: 0px;
     margin: 0px;
@@ -22,8 +31,12 @@
     padding: auto;
   
   }
-  /* SignuUp - Login ___________________ */
-  .boxSign, .boxLogin{
+  .nav-right{
+    text-align: right;
+    padding-right: 100px;
+  }
+  /*SignuUp, Login, AddProdct ________________ */
+  .boxSign, .boxLogin, .boxAdd{
     margin-top: 60px;
     display: flex;
     flex-direction: column;
@@ -49,7 +62,12 @@
     font-weight: 800;
     border-radius: 6px;
   }
-  
+.invalid-input{
+  display: block;
+  color: red;
+  margin: -17px 0px 0px -170px;
+
+}
   
   
   

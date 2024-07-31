@@ -4,6 +4,7 @@ const cors = require('cors');
 const app = express();
 require('./db/config');   //connect to db
 const User = require('./db/User.js')
+const Product = require('./db/Product.js')
 
 app.use(express.json());
 app.use(cors());
@@ -28,6 +29,11 @@ app.post('/login',async (req,resp)=>{    // you have to instoll this info in use
     }
 })
 
+app.post('/add-product', async(req,resp)=>{
+    let product = new Product(req.body);
+    let result = await product.save();
+    resp.send(result);
+})
 
 
 app.listen(5000);
