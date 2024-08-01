@@ -34,7 +34,7 @@ const Login =()=>{
   return (
     <div className='boxLogin'>
         <h1>Login</h1>
-        <input className='inputBox' type="text" placeholder='Enter Email'
+        <input className='inputBox' type="email" placeholder='Enter Email'
         onChange={(e)=>setEmail(e.target.value)} value={email} />
 
         <input className='inputBox' type="password" placeholder='Enter Password'

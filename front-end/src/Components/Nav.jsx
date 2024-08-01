@@ -14,11 +14,11 @@ const Nav = ()=>{
       <img className='logo' alt='logo'
            src='logo192.png' />
 
-      {auth ?      
+      {auth ?          // I think  to make sign up by chose from heer...
         <ul className='nav-ul'>
             <li><Link to='/'>Products</Link></li>
             <li><Link to='/add'>Add Products</Link></li>
-            <li><Link to='/update'>Update Products  </Link></li>
+            {/* <li><Link to='/update'>Update Products  </Link></li> */}
             <li><Link to='/profile'>Profile</Link></li>
             <li><Link   onClick={logout} to='/logout'>Logout ({JSON.parse(auth).name})</Link></li>
         </ul>

@@ -34,15 +34,15 @@ const AddProduct =()=>{
         value={name} onChange={(e)=>{setName(e.target.value)}} />
         {error && !name && <span className='invalid-input' >Enter valid name</span>}
 
-        <input className='inputBox' type='text' placeholder='Enter product name'
+        <input className='inputBox' type='text' placeholder='Enter product price'
         value={price} onChange={(e)=>{setPrice(e.target.value)}} />
         {error && !price && <span className='invalid-input' >Enter valid price</span>}
 
-        <input className='inputBox' type='text' placeholder='Enter product name'
+        <input className='inputBox' type='text' placeholder='Enter product category'
         value={category} onChange={(e)=>{setCategory(e.target.value)}} />
         {error && !category && <span className='invalid-input' >Enter valid category</span>}
 
-        <input className='inputBox' type='text' placeholder='Enter product name'
+        <input className='inputBox' type='text' placeholder='Enter product company'
         value={company} onChange={(e)=>{setCompany(e.target.value)}} />
         {error && !company && <span className='invalid-input' >Enter valid company</span>}
 

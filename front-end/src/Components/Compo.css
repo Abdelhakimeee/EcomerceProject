@@ -35,7 +35,7 @@
     text-align: right;
     padding-right: 100px;
   }
-  /*SignuUp, Login, AddProdct ________________ */
+  /*SignuUp, Login, AddProdct, UpdateComponent,  */
   .boxSign, .boxLogin, .boxAdd{
     margin-top: 60px;
     display: flex;
@@ -53,13 +53,13 @@
     border-radius: 6px;
   }
   .appButton {
-    margin: 20px;
-    width: 150px;
+    margin: 10px;
+    width: 15 0px;
     padding: 10px;
     color: rgb(85, 185, 224);
     border: solid 2px rgb(85, 185, 224);
     cursor: pointer;
-    font-weight: 800;
+    font-weight: 600;
     border-radius: 6px;
   }
 .invalid-input{
@@ -68,10 +68,29 @@
   margin: -17px 0px 0px -170px;
 
 }
-  
-  
-  
-  
+/* ProductList, ________________________ */
+  .product-list{
+    text-align: center;
+    margin-top: 30px ;
+    
+  }
+  .product-list ul{
+    margin: 0px;
+  }
+  .product-list ul li {
+    display: inline-block;
+    width: 150px;
+    border: 1px solid skyblue;
+    padding: 5px
+  }
+  .search-input {
+    border: solid 2px skyblue;
+    margin: 20px 0px;
+    padding: 8px;
+
+
+
+  }
 
   /* Footer__________________________ */
   .footer{
